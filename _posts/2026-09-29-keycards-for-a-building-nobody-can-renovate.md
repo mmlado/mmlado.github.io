@@ -2,7 +2,7 @@
 title: "Keycards for a building nobody can renovate"
 subtitle: "Building the admin and freeze authority libraries for Logos programs, RFP-001 and RFP-002"
 description: "Two libraries give a Logos program an owner and an emergency brake, on a chain where nothing can be patched. How they were built, what the review caught, and what to check before you deploy on them."
-image: /assets/keycards/card.jpg
+image: /assets/keycards/hero.jpg
 hero: /assets/keycards/hero.jpg
 hero_alt: "A keycard reader glowing blue on the frame of a frosted glass shop door, in an empty shopping mall corridor at night."
 hero_credit: "Image generated with ChatGPT."
