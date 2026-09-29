@@ -1,0 +1,33 @@
+title: mmlado
+description: walleteer. Air-gapped wallets that do not phone home.
+author: Mladen Milankovic
+url: https://mmlado.com
+
+# Posts live in _posts/ as Markdown and render to /blog/<slug>/
+permalink: /blog/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# Keep the text exactly as typed: no curly quotes, no ellipsis or dash substitution
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  typographic_symbols: { hellip: "...", mdash: "---", ndash: "--", laquo: "<<", raquo: ">>", laquo_space: "<< ", raquo_space: " >>" }
+  syntax_highlighter_opts:
+    disable: true
+
+plugins:
+  - jekyll-feed      # /feed.xml for RSS readers
+  - jekyll-sitemap   # /sitemap.xml for search engines
+
+include:
+  - .well-known      # security.txt; Jekyll skips dot-folders unless listed
+
+exclude:
+  - README.md

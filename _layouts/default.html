@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- assign desc = page.description | default: site.description %}
+{%- if page.title %}
+<title>{{ page.title }} - mmlado</title>
+{%- else %}
+<title>mmlado - Mladen Milankovic</title>
+{%- endif %}
+<meta name="description" content="{{ desc | escape }}">
+<meta name="author" content="{{ site.author }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+{% feed_meta %}
+<meta property="og:site_name" content="mmlado">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:title" content="{{ page.title | default: site.author | escape }}">
+<meta property="og:description" content="{{ desc | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+{%- if page.image %}
+<meta property="og:image" content="{{ page.image | absolute_url }}">
+<meta property="og:image:alt" content="{{ page.title | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+{%- else %}
+<meta name="twitter:card" content="summary">
+{%- endif %}
+<meta name="twitter:title" content="{{ page.title | default: site.author | escape }}">
+<meta name="twitter:description" content="{{ desc | escape }}">
+{%- if page.layout == 'post' %}
+<meta property="article:published_time" content="{{ page.date | date: '%Y-%m-%d' }}">
+{%- endif %}
+</head>
+<body>
+{{ content }}
+</body>
+</html>

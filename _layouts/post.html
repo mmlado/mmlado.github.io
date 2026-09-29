@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<p class="tag"><a href="/">mmlado</a> - <span class="sc">walleteer</span></p>
+<article>
+<h1>{{ page.title }}</h1>
+{%- if page.subtitle %}
+<p class="tag">{{ page.subtitle }}</p>
+{%- endif %}
+<p class="meta">
+{%- if page.original_url -%}
+Originally published on {{ page.original_site }}, <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%-d %B %Y' }}</time>. {{ page.original_note }} <a href="{{ page.original_url }}">Original</a>.
+{%- else -%}
+<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: '%-d %B %Y' }}</time>
+{%- endif -%}
+</p>
+{%- if page.hero %}
+<figure class="hero"><img src="{{ page.hero }}" alt="{{ page.hero_alt | escape }}" width="1600" height="800">
+{%- if page.hero_credit %}<figcaption>{{ page.hero_credit }}</figcaption>{% endif %}</figure>
+{%- endif %}
+{{ content }}
+</article>
+<footer><p class="tag"><a href="/">mmlado.com</a> - <a href="/blog/">all posts</a></p></footer>
