@@ -50,10 +50,7 @@ Independent, open to work in the privacy space.
 EthBelgrade 2025
 {: .novid}
 
-<iframe class="video" loading="lazy"
-  src="https://www.youtube-nocookie.com/embed/waByT_FUTQo"
-  title="Code Against the Machine: Cypherpunks, technoanarchists and post-state futures - EthBelgrade 2025"
-  allow="encrypted-media; picture-in-picture; fullscreen"></iframe>
+{% include video.html id="waByT_FUTQo" title="Code Against the Machine: Cypherpunks, technoanarchists and post-state futures - EthBelgrade 2025" %}
 
 ### [Dev Tooling track](https://2024.ethbelgrade.rs)
 
@@ -65,20 +62,15 @@ EthBelgrade 2024 - no recording (venue technical difficulties)
 EthBelgrade 2023
 {: .novid}
 
-<iframe class="video" loading="lazy"
-  src="https://www.youtube-nocookie.com/embed/BPAcZ5rnECI"
-  title="Smart Contract Development with Vyper - EthBelgrade 2023"
-  allow="encrypted-media; picture-in-picture; fullscreen"></iframe>
+{% include video.html id="BPAcZ5rnECI" title="Smart Contract Development with Vyper - EthBelgrade 2023" %}
 
 ### [Tehnički aspekti blokčejna](https://youtu.be/hyF_n4d7gu4)
 
 Serbian Academy of Sciences, 2022
 {: .novid}
 
-<iframe class="video" loading="lazy"
-  src="https://www.youtube-nocookie.com/embed/hyF_n4d7gu4"
-  title="Tehnicki aspekti blokcejna - SANU 2022"
-  allow="encrypted-media; picture-in-picture; fullscreen"></iframe>
+{% include video.html id="hyF_n4d7gu4" title="Tehnicki aspekti blokcejna - SANU 2022" %}
+{% include video-script.html %}
 
 ## Elsewhere
 

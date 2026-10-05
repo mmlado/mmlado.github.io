@@ -1,0 +1,4 @@
+{%- comment %} The player is created only on click, so viewing the page sends nothing to YouTube. Without JavaScript the thumbnail is a plain link to the video. {% endcomment -%}
+<div class="video">
+<a href="https://www.youtube.com/watch?v={{ include.id }}" data-embed="https://www.youtube-nocookie.com/embed/{{ include.id }}?autoplay=1" data-title="{{ include.title | escape }}"><img src="/assets/talks/{{ include.id }}.webp" alt="Play {{ include.title | escape }}" width="1280" height="720" loading="lazy"><span class="play"></span></a>
+</div>
