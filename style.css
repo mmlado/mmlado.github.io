@@ -23,7 +23,8 @@ img { max-width: 100%; height: auto; }
 blockquote { margin: 1.6rem 0; padding-left: 1rem; border-left: 3px solid #888;
              font-style: italic; }
 code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .9em; }
-:not(pre) > code { background: #8882; padding: .05em .3em; border-radius: 4px; }
+:not(pre) > code { background: #8882; padding: .05em .3em; border-radius: 4px;
+                   overflow-wrap: anywhere; }
 pre { overflow-x: auto; padding: .8rem 1rem; border: 1px solid #8886; border-radius: 6px;
       line-height: 1.45; }
 article { font-size: 1.15rem; }

@@ -111,6 +111,9 @@ Serbian Academy of Sciences, 2022
 - [GitHub](https://github.com/mmlado)
 - [LinkedIn](https://www.linkedin.com/in/mladenmilankovic)
 - [X](https://x.com/mmlado_eth)
+- [Nostr](https://njump.me/npub1ccyxap7kpytvt2tdwcumflfll3yyk3hewvk5hmtv3zq7hrm2guesq2m2vl)
+  `npub1ccyxap7kpytvt2tdwcumflfll3yyk3hewvk5hmtv3zq7hrm2guesq2m2vl`,
+  verified as `mmlado.com`; the key lives on a Keycard
 - [Older posts (Paragraph)](https://paragraph.com/mmlado.eth)
 - Digital Self-Defense on YouTube:
   [Serbian](https://www.youtube.com/@DigitalnaSamoodbrana) /
