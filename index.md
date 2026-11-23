@@ -106,6 +106,15 @@ Serbian Academy of Sciences, 2022
 {% include video.html id="hyF_n4d7gu4" title="Tehnicki aspekti blokcejna - SANU 2022" %}
 {% include video-script.html %}
 
+## Contact
+
+- [developer@mmlado.com](mailto:developer@mmlado.com), [PGP key](/pgp-developer.asc)
+  `3B5B 907B FF13 2B44 735B 240C AF87 FA02 4847 B1B2`;
+  `gpg --locate-keys developer@mmlado.com` fetches it from this domain
+- Commits and releases are signed with
+  `FCD4 9AD2 CC63 5393 72AC 2519 5608 34A7 3D07 D405`
+  ([key](https://github.com/mmlado.gpg), signing only)
+
 ## Elsewhere
 
 - [GitHub](https://github.com/mmlado)
